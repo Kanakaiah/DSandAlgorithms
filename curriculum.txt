@@ -1,0 +1,45 @@
+Lesson: 1
+
+	* recognize the definition of a data structure and its importance in computer science
+	* define what an algorithm is informally and discuss a few aspects of algorithms we need to consider as programmers
+	* define the complexity of an algorithm in terms of Big O notation
+	* String & Arrays operations
+
+Lesson: Standard Containers
+
+
+	* implement a fixed-size stack of integers
+	* implement a fixed-size queue of integers
+	* implement a linked
+
+Lesson: Binary Trees
+
+	* construct and destruct a Binary Search Tree (BST)
+	* perform a search using recursion on a BST
+	* insert elements into a BST
+	* delete elements from a BST
+
+Lesson: Sorting
+
+	* implement a Bubble sort to sort a list of integers
+	* implement a Merge sort
+	* implement a Quicksort
+
+Lesson: Graphs
+
+	* define a graph as an adjacency
+	* define a graph as an adjacency matrix
+	* perform a Breadth First Search (BFS) on a graph represented by an adjacency
+	* perform a Depth First Search (DFS) on a graph represented by an adjacency matrix
+	* implement a Topological Sort to sort a graph represented by an adjacency list
+
+Lesson: Hashed Data Structures
+
+	* define a hashed data structure and discuss when to best use them
+	* implement a custom hash function
+	* discuss the difference between perfect and non-perfect hashing, and implement a perfect hash
+	* discuss the method of handling collisions using separate chaining
+
+Lesson: Practice: Using Algorithms and Data Structures
+
+	* learn the use of the fundamental basics of algorithms and data structures
