@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DS.Algorithms.Satish
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Any number to reverse:");
+            Console.WriteLine();
+            int enteredNum = Convert.ToInt32(Console.ReadLine());
+            int sign;
+            int rev = 0;
+            
+            int multilier = 1;
+            int baseNumber = Math.Abs(enteredNum);
+            while ((baseNumber / 10) >= 1)
+            {
+                multilier = multilier * 10;
+                baseNumber = baseNumber / 10;
+            }
+         //   Console.WriteLine("Base :" + multilier);
+
+            if (enteredNum < 0 )
+            {
+                enteredNum = Math.Abs(enteredNum);
+                sign = -1;
+            }
+            else
+            {
+                sign = 1;
+            }
+                
+
+            while ((enteredNum % 10) > 0)
+            {
+                rev = rev + (enteredNum % 10) * multilier;
+                enteredNum = enteredNum / 10;
+                multilier = multilier / 10;
+
+
+            }
+            Console.WriteLine("Reverse Number :" + rev*sign);
+        }
+
+
+
+    }
+
+}
