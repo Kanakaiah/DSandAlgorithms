@@ -10,6 +10,8 @@ namespace DS.Algorithms.David
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello David");
+
         }
     }
 }
