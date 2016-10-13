@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DS.Algorithms.KK
 {
-    class Palindrome
+    class MaximumSubsequences
     {
     }
 }

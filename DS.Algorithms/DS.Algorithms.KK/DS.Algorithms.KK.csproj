@@ -43,13 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Palindrome.cs" />
+    <Compile Include="StringArray\MatrixArithmetic.cs" />
+    <Compile Include="StringArray\MatrixArithmeticTest.cs" />
+    <Compile Include="StringArray\MaximumSubsequences.cs" />
+    <Compile Include="StringArray\MaximumSubsequencesTest.cs" />
+    <Compile Include="StringArray\Palindrome.cs" />
+    <Compile Include="StringArray\PalindromeTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringArray\ReveseTheNumber.cs" />
+    <Compile Include="StringArray\ReveseTheNumberTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="QList.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
