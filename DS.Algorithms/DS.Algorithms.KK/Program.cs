@@ -16,7 +16,10 @@ namespace DS.Algorithms.KK
             //2
             //ReveseTheNumberTest.Run();
             //3
-            MatrixArithmeticTest.Run();
+            //MatrixArithmeticTest.Run();
+            //4.
+            //MaximumSubsequencesTest.RunSum();
+            MaximumSubsequencesTest.RunMultiplication();
         }
     }
 }
