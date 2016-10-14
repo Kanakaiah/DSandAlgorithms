@@ -10,6 +10,7 @@ namespace DS.Algorithms.PrinceJoel
     {
         static void Main(string[] args)
         {
+            // Joel, very good job.... since it's empty :)
         }
     }
 }
