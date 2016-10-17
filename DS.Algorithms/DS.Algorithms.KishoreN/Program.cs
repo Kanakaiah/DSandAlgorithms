@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DS.Algorithms.PrinceJoel
+namespace DS.Algorithms.KishoreN
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
-            //Joel is occupied with many assignments....
         }
     }
 }

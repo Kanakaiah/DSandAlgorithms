@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DS.Algorithms.KK
+namespace DS.Algorithms.Bhanu
 {
-    class Palindrome
+    public class ArrayBasedProblems
     {
+
     }
 }
