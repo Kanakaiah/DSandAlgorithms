@@ -1,3 +1,4 @@
+using DS.Algorithms.Satish;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -61,7 +62,8 @@ namespace DS.Alogirthms.Satish
 
             //  }
 
-
+            MatrixProcess mp = new MatrixProcess();
+            mp.product();
         }
     }
 }

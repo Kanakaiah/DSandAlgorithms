@@ -10,6 +10,11 @@ namespace DS.Algorithms.RajaM
     {
         static void Main(string[] args)
         {
+
+            MyPrograms myPrograms = new MyPrograms();
+            myPrograms.PrintMyPrograms();
+
+            Console.ReadLine();
         }
     }
 }
