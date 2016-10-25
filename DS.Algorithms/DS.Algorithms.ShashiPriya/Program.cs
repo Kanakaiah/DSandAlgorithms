@@ -10,6 +10,7 @@ namespace DS.Algorithms.ShashiPriya
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Praise the Lord!!!!!");
             Console.WriteLine("Number is palindrome:" + IsPalindrome("madam"));
               Console.WriteLine("Reverse of Number:"+ ReverseNumber(123));
             Console.Read();
