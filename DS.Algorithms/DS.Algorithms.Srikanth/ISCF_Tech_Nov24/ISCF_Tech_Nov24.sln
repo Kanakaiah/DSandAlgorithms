@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srik_HelloWrld", "Srik_HelloWrld\Srik_HelloWrld.csproj", "{64C626FF-56EB-47A3-A198-93A321247F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srik_MyDetails", "Srik_MyDetails\Srik_MyDetails.csproj", "{78592A08-7C53-48E0-B9B5-277B99292B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srik_BasicMaths", "Srik_BasicMaths\Srik_BasicMaths.csproj", "{48A17FC1-C3A4-45CD-A0D3-7F5D1EFFE6B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C626FF-56EB-47A3-A198-93A321247F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C626FF-56EB-47A3-A198-93A321247F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C626FF-56EB-47A3-A198-93A321247F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C626FF-56EB-47A3-A198-93A321247F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78592A08-7C53-48E0-B9B5-277B99292B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78592A08-7C53-48E0-B9B5-277B99292B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78592A08-7C53-48E0-B9B5-277B99292B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78592A08-7C53-48E0-B9B5-277B99292B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A17FC1-C3A4-45CD-A0D3-7F5D1EFFE6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A17FC1-C3A4-45CD-A0D3-7F5D1EFFE6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A17FC1-C3A4-45CD-A0D3-7F5D1EFFE6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A17FC1-C3A4-45CD-A0D3-7F5D1EFFE6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
