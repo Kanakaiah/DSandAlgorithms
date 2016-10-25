@@ -10,10 +10,34 @@ namespace DS.Algorithms.ShashiPriya
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Praise the Lord!!!!!");
-            Console.WriteLine("Number is palindrome:" + IsPalindrome("madam"));
-              Console.WriteLine("Reverse of Number:"+ ReverseNumber(123));
-            Console.Read();
+            try
+            {
+                MyStack s = new MyStack();
+                
+                Console.WriteLine("Pushing the element to the stack.");
+                s.push(1);
+                s.push(2);
+                s.push(3);
+                Console.ReadLine();
+                Console.WriteLine("Display the top element.");
+                Console.WriteLine(s.Top());
+                Console.ReadLine();
+                Console.WriteLine("Popping the elemnent from the stack.");
+                Console.WriteLine(s.pop());
+                Console.ReadLine();
+                Console.WriteLine("Display the top element.");
+                Console.WriteLine(s.Top());
+
+                Console.WriteLine("Praise the Lord!!!!!");
+                Console.WriteLine("Number is palindrome:" + IsPalindrome("madam"));
+                Console.WriteLine("Reverse of Number:" + ReverseNumber(123));
+                Console.Read();
+            }
+            catch(MyStack.EmptyStackException ex)
+            {
+                Console.WriteLine("Stack is empty");
+                Console.ReadLine();
+            }
         }
         
          public static bool IsPalindrome(string s)
@@ -37,5 +61,12 @@ namespace DS.Algorithms.ShashiPriya
             }
             return rev;
         }
+
+        
+
+
+        
+
+
     }
 }
