@@ -42,7 +42,7 @@ namespace ISCF_Tech_Nov26
                 nayQuestions = nayQuestions + "Q1, ";
             }
 //////////////////////////////////////////////////////////////////////////////////////////////
-            Console.WriteLine("Q2. How many books are in the New Testament??");
+            Console.WriteLine("Q2. How many books are in the New Testament?");
             Console.WriteLine("1. 27          2. 32");
             Console.WriteLine("3. 43          4. 47");
             Console.WriteLine();
@@ -130,7 +130,7 @@ namespace ISCF_Tech_Nov26
            
 
 //////////////////////////////////////////////////////////////////////////////////////////////
-            Console.WriteLine("Q6. Which Gospel is written by a doctor??");
+            Console.WriteLine("Q6. Which Gospel is written by a doctor?");
             Console.WriteLine("1. Matthew      2. Paul");
             Console.WriteLine("3. Peter        4. Luke");
             Console.WriteLine();
