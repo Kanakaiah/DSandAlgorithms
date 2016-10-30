@@ -8,8 +8,13 @@ namespace DS.Algorithms.ShashiPriya
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            int[,] a = new int[2,3] { {1,2,3}, {2,3,5} };
+            int[,] b = new int[2,2] { {3,4}, {5,6} };
+        int[,] c=    Matrix.Multiply(a,b);
+
+            Console.WriteLine("j");
             try
             {
                 MyStack s = new MyStack();
