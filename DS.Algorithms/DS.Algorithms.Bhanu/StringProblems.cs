@@ -20,7 +20,8 @@ namespace DS.Algorithms.Bhanu
 
         public static void Test_PalindromeCheckingSpecialcase()
         {
-            string[] ar = new string[] { "#", "#B$AAB", "#%!B$AAB", "MADAM", "A#", "DEAR", "%%%MADAB##ADAM!$^" };
+            string[] ar = new string[] { "#", "#B$AAB", "#%!B$AAB", "MADAM", "A#", "DEAR", "%%%MADAB##ADAM!$^",
+                                        "A man, a plan, a canal: Panama", "A man, an plan, a canal: Panama"};
 
             foreach (string s in ar)
             {
@@ -63,13 +64,33 @@ namespace DS.Algorithms.Bhanu
                     continue;
                 }
 
-                if (inputStr[start++] != inputStr[end--])
+                if (!AreEqual(inputStr[start++], inputStr[end--]))
                 {
                     return false;
                 }
             }
 
             return true;
+        }
+
+        private static bool AreEqual(char ch1, char ch2)
+        {
+            ch1 = ToLower(ch1);
+            ch2 = ToLower(ch2);
+
+            return ch1 == ch2;
+        }
+
+        private static char ToLower(char ch)
+        {
+            if( ch >= 'A' && ch <= 'Z')
+            {
+                return (char)(ch + ('a' - 'A'));
+            }
+            else
+            {
+                return ch;
+            }
         }
 
         private static bool IsAlphaNumericCharacter(char ch)
