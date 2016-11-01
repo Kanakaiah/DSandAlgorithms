@@ -12,14 +12,14 @@ namespace DS.Algorithms.KK
         static void Main(string[] args)
         {
             //1
-            // PalindromeTest.Run();
+            //PalindromeTest.Run();
             //2
             //ReveseTheNumberTest.Run();
             //3
             //MatrixArithmeticTest.Run();
             //4.
             //MaximumSubsequencesTest.RunSum();
-            MaximumSubsequencesTest.RunMultiplication();
+            //MaximumSubsequencesTest.RunMultiplication();
         }
     }
 }

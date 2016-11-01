@@ -8,11 +8,41 @@ namespace DS.Algorithms.ShashiPriya
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Number is palindrome:" + IsPalindrome("madam"));
-              Console.WriteLine("Reverse of Number:"+ ReverseNumber(123));
-            Console.Read();
+            int[,] a = new int[2,3] { {1,2,3}, {2,3,5} };
+            int[,] b = new int[2,2] { {3,4}, {5,6} };
+        int[,] c=    Matrix.Multiply(a,b);
+
+            Console.WriteLine("j");
+            try
+            {
+                MyStack s = new MyStack();
+                
+                Console.WriteLine("Pushing the element to the stack.");
+                s.push(1);
+                s.push(2);
+                s.push(3);
+                Console.ReadLine();
+                Console.WriteLine("Display the top element.");
+                Console.WriteLine(s.Top());
+                Console.ReadLine();
+                Console.WriteLine("Popping the elemnent from the stack.");
+                Console.WriteLine(s.pop());
+                Console.ReadLine();
+                Console.WriteLine("Display the top element.");
+                Console.WriteLine(s.Top());
+
+                Console.WriteLine("Praise the Lord!!!!!");
+                Console.WriteLine("Number is palindrome:" + IsPalindrome("madam"));
+                Console.WriteLine("Reverse of Number:" + ReverseNumber(123));
+                Console.Read();
+            }
+            catch(MyStack.EmptyStackException ex)
+            {
+                Console.WriteLine("Stack is empty");
+                Console.ReadLine();
+            }
         }
         
          public static bool IsPalindrome(string s)
@@ -36,5 +66,12 @@ namespace DS.Algorithms.ShashiPriya
             }
             return rev;
         }
+
+        
+
+
+        
+
+
     }
 }
