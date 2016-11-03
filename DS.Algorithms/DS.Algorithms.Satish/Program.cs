@@ -92,7 +92,36 @@ namespace DS.Alogirthms.Satish
             {
                 Console.WriteLine("Index :" + i + " Value :" + stack.Get(i));
             }
+            Console.WriteLine();
+            Console.WriteLine("Queue Demo!");
+            Console.WriteLine();
+            MyQueue<string> queue = new MyQueue<string>();
+            queue.enqueue("Sathish");
+            queue.enqueue("Anusha");
+            Console.WriteLine("Queuw Size : "+ queue.Size);
+            Console.WriteLine();
+            queue.dequeue();
+            Console.WriteLine("Queue Size After Deque : " + queue.Size);
+            for (int i = 0; i < queue.Size; i++)
+            {
+                Console.WriteLine("Index :" + i + " Value :" + queue.Get(i));
+            }
+            Console.WriteLine();
+            queue.enqueue("Abhishay");
+            queue.enqueue("Sannidhi");
 
+            for (int i = 0; i < queue.Size; i++)
+            {
+                Console.WriteLine("Index :" + i + " Value :" + queue.Get(i));
+            }
+            queue.dequeue();
+
+            Console.WriteLine();
+            Console.WriteLine("Quue Values after another Deque");
+            for (int i = 0; i < queue.Size; i++)
+            {
+                Console.WriteLine("Index :" + i + " Value :" + queue.Get(i));
+            }
         }
     }
 }
