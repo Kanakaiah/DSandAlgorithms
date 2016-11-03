@@ -10,7 +10,7 @@ namespace DS.Algorithms.Satish
     public class MyStack<T> : IEnumerator<T>
     {
         // string [] myBible = new string[10];
-          List<T> stack = new List<T>();
+        List<T> stack = new List<T>();
         public int Index { get; set; }
         public int Size { get; set; }
 
