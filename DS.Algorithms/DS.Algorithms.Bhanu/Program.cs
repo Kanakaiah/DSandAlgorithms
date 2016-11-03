@@ -10,6 +10,10 @@ namespace DS.Algorithms.Bhanu
     {
         static void Main(string[] args)
         {
+            //StringProblems.Test_PalindromeChecking();
+            //StringProblems.Test_PalindromeCheckingSpecialcase();
+            //NumericBasedProblems.Test_ReverseGivenNumber();
+            ArrayBasedProblems.Test_MaxSubArraySum();
         }
     }
 }

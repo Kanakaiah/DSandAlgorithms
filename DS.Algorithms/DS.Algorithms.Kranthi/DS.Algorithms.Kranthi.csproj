@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringArray\ArrayArithmetic.cs" />
+    <Compile Include="StringArray\ArrayArithmeticTest.cs" />
+    <Compile Include="StringArray\Number.cs" />
+    <Compile Include="StringArray\NumberTest.cs" />
+    <Compile Include="StringArray\Palindrome.cs" />
+    <Compile Include="StringArray\PalindromeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
