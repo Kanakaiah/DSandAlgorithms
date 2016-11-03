@@ -14,7 +14,7 @@ namespace ISCF_Tech_Nov26
             string yayQuestions, nayQuestions;
             int countYay, countNay;
 
-            Console.WriteLine("Welcome to ISCF Tech Bible Quiz !!!");
+            Console.WriteLine("Welcome to ISCF Tech Bible Quiz !!");
             Console.WriteLine();
 
             Console.WriteLine("Q1. In what city was Jesus born?");
