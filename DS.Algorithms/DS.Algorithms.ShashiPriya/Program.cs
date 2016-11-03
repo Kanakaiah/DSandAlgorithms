@@ -10,6 +10,14 @@ namespace DS.Algorithms.ShashiPriya
     {
         static void Main()
         {
+            MyQueue q= new MyQueue();
+            q.EnQueue(1);
+            q.EnQueue(2);
+            q.EnQueue(3);
+            q.DeQueue();
+            q.DeQueue();
+            Console.WriteLine(q.front.Data);
+            Console.ReadLine();
             int[] arr = new int[] { 5, 0, -7, 2, 12, 2 };
             MaximumSubsequent.MaxSubProduct(arr);
            
