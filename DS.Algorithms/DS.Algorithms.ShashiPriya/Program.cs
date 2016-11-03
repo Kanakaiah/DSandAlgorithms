@@ -10,6 +10,10 @@ namespace DS.Algorithms.ShashiPriya
     {
         static void Main()
         {
+            int[] arr = new int[] { 5, 0, -7, 2, 12, 2 };
+            MaximumSubsequent.MaxSubProduct(arr);
+           
+            
             int[,] a = new int[2,3] { {1,2,3}, {2,3,5} };
             int[,] b = new int[2,2] { {3,4}, {5,6} };
         int[,] c=    Matrix.Multiply(a,b);
