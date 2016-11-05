@@ -66,6 +66,8 @@ namespace DS.Alogirthms.Satish
 
             //      MatrixProcess mp = new MatrixProcess();
             //      mp.product();
+
+
             MyStack<string> stack = new MyStack<string>();
             Console.WriteLine("The Stack Size :" + stack.Size);
             stack.push("Genesis");
@@ -122,6 +124,12 @@ namespace DS.Alogirthms.Satish
             {
                 Console.WriteLine("Index :" + i + " Value :" + queue.Get(i));
             }
+            Console.WriteLine("-------------------------------");
+
+            SubSequenceSum subSum = new SubSequenceSum();
+            subSum.displayArray();
+            subSum.displaySubSum();
+
         }
     }
 }
