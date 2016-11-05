@@ -127,9 +127,9 @@ namespace DS.Alogirthms.Satish
             Console.WriteLine("-------------------------------");
 
             SubSequenceSum subSum = new SubSequenceSum();
-            subSum.displayArray();
-            subSum.displaySubSum();
-
+            //  subSum.displayArray();
+            //  subSum.displaySubSum();
+            SubSequenceTest.Run();
         }
     }
 }
