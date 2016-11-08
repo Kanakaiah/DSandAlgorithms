@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace DS.Algorithms.Satish.StringAsnmt
 {
+    /// <summary>
+    /// This Class is to Find a Unique character in the Given String
+    /// <param name = "inStr">inStr</param>
+    /// Return Type is Boolean
+    /// </summary>
     public class UniqueChar
     {
         public static bool IsUnique(string inStr)
