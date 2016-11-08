@@ -10,13 +10,25 @@ namespace DS.Algorithms.Satish.StringAsnmt
     {
         internal static void Run()
         {
-            string input = "abcdefg";
+            string input = "abc def g";
 
             Console.WriteLine("String : " + input  + UniqueChar.DisplayUnique(UniqueChar.IsUnique(input)));
 
             input = "abcdefga";
 
             Console.WriteLine("String : " + input + UniqueChar.DisplayUnique(UniqueChar.IsUnique(input)));
+
+            input = "abcdefghijklmnopqrstuvwxyz";
+
+         //   Console.WriteLine("String : " + input + (UniqueChar.isUniqueChars(input)));
+
+            input = "abcdefghijklmnopqrstuvwx yz";
+
+            Console.WriteLine("String : " + input + UniqueChar.DisplayUnique(UniqueChar.isUniqueChar(input)));
+
+            UniqueChar.printBytes();
         }
+
+        
     }
 }
