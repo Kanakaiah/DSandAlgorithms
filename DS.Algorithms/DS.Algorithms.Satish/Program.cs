@@ -1,4 +1,5 @@
 using DS.Algorithms.Satish;
+using DS.Algorithms.Satish.StringAsnmt;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -130,6 +131,9 @@ namespace DS.Alogirthms.Satish
             //  subSum.displayArray();
             //  subSum.displaySubSum();
             SubSequenceTest.Run();
+
+            UniqueCharTest.Run();
+            
         }
     }
 }
