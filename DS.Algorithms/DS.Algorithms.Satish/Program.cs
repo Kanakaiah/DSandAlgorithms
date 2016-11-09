@@ -132,7 +132,8 @@ namespace DS.Alogirthms.Satish
             //  subSum.displaySubSum();
             SubSequenceTest.Run();
 
-            UniqueCharTest.Run();
+            // UniqueCharTest.Run();
+            StringAnagramTest.Run();
             
         }
     }
