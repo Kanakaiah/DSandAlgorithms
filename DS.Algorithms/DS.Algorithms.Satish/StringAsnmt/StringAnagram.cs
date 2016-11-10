@@ -10,7 +10,7 @@ namespace DS.Algorithms.Satish.StringAsnmt
     {
         public static bool isAnagram(string str1, string str2)
         {
-            bool isFound = false;
+            bool isFound = true;
             //str1 = str1.ToLower();
            // str2 = str2.ToLower();
             //Check if the 2 string lengths are equal if not the are not anagram
@@ -22,9 +22,11 @@ namespace DS.Algorithms.Satish.StringAsnmt
                 //Start checking if the strings are Anagrams
                 foreach(char c in str1.ToCharArray())
                 {
-                   // if (c == ' ')
+                    // if (c == ' ')
                     //    continue;
-                     isFound = false;
+                    if (!isFound)
+                        return false;
+                    // isFound = false;
                     foreach(char d in str2.ToCharArray())
                     {
                         

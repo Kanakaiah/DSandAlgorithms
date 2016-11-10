@@ -27,7 +27,10 @@ namespace DS.Algorithms.Satish.StringAsnmt
             s1 = "Astronomer";
             s2 = "Moon starrer";
             Console.WriteLine("Are these Strings  Anagrams : " + StringAnagram.isAnagram(s1, s2));
-            
+
+            s1 = "Anagram";
+            s2 = "Nagaram";
+            Console.WriteLine("Are these Strings  Anagrams : " + StringAnagram.isAnagram(s1, s2));
         }
     }
 }
