@@ -136,6 +136,8 @@ namespace DS.Alogirthms.Satish
             StringAnagramTest.Run();
 
             SpaceReplaceTest.Run();
+
+            StringCompressTest.Run();
             
         }
     }

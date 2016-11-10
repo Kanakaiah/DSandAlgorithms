@@ -52,6 +52,8 @@
     <Compile Include="StringAsnmt\SpaceReplaceTest.cs" />
     <Compile Include="StringAsnmt\StringAnagram.cs" />
     <Compile Include="StringAsnmt\StringAnagramTest.cs" />
+    <Compile Include="StringAsnmt\StringCompression.cs" />
+    <Compile Include="StringAsnmt\StringCompressTest.cs" />
     <Compile Include="StringAsnmt\UniqueChar.cs" />
     <Compile Include="StringAsnmt\UniqueCharTest.cs" />
     <Compile Include="SubSequenceSum.cs" />
