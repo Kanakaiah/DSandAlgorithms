@@ -48,6 +48,8 @@
     <Compile Include="MyStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringAsnmt\SpaceReplace.cs" />
+    <Compile Include="StringAsnmt\SpaceReplaceTest.cs" />
     <Compile Include="StringAsnmt\StringAnagram.cs" />
     <Compile Include="StringAsnmt\StringAnagramTest.cs" />
     <Compile Include="StringAsnmt\UniqueChar.cs" />
