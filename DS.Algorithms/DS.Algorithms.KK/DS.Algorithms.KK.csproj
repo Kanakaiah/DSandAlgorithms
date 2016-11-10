@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="LinkedList\LinkedListTest.cs" />
+    <Compile Include="LinkedList\Node.cs" />
+    <Compile Include="StackQueue\Queue.cs" />
+    <Compile Include="StackQueue\SingleArrayToThreeStacks.cs" />
+    <Compile Include="StackQueue\SingleArrayToThreeStacksTest.cs" />
+    <Compile Include="StackQueue\Stack.cs" />
+    <Compile Include="StackQueue\StackTest.cs" />
+    <Compile Include="StringArray\Anagram.cs" />
+    <Compile Include="StringArray\AnagramTest.cs" />
     <Compile Include="StringArray\MatrixArithmetic.cs" />
     <Compile Include="StringArray\MatrixArithmeticTest.cs" />
     <Compile Include="StringArray\MaximumSubsequences.cs" />
@@ -51,8 +61,16 @@
     <Compile Include="StringArray\PalindromeTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringArray\ReplaceWithSpace.cs" />
+    <Compile Include="StringArray\ReplaceWithSpaceTest.cs" />
     <Compile Include="StringArray\ReveseTheNumber.cs" />
     <Compile Include="StringArray\ReveseTheNumberTest.cs" />
+    <Compile Include="StringArray\RotateMatrix.cs" />
+    <Compile Include="StringArray\RotateMatrixTest.cs" />
+    <Compile Include="StringArray\StringCompress.cs" />
+    <Compile Include="StringArray\StringCompressTest.cs" />
+    <Compile Include="StringArray\UniqueCharacters.cs" />
+    <Compile Include="StringArray\UniqueCharactersTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,9 +78,7 @@
   <ItemGroup>
     <Content Include="QList.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="LinkedList\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

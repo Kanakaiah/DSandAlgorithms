@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DS.Algorithms.KK.StringArray;
+using DS.Algorithms.KK.StackQueue;
+using DS.Algorithms.KK.LinkedList;
 
 namespace DS.Algorithms.KK
 {
@@ -20,6 +22,27 @@ namespace DS.Algorithms.KK
             //4.
             //MaximumSubsequencesTest.RunSum();
             //MaximumSubsequencesTest.RunMultiplication();
+            //5. Stack
+            //StackTest.Run();
+            //QueueTest.Run();
+
+            //6. Is Unique characters
+            //UniqueCharactersTest.Run();
+
+            //7. Is Anagram
+            //AnagramTest.Run();
+
+            //8.
+            //ReplaceWithSpaceTest.Run();
+
+            //9.Compress the string
+            //StringCompressTest.Run();
+
+            //10.
+            RotateMatrixTest.Run();
+
+
+            Console.Read();
         }
     }
 }
