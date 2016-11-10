@@ -12,6 +12,12 @@ namespace DS.Algorithms.Satish.StringAsnmt
         {
             string input = "Sathish Testing Spaces";
             Console.WriteLine("\nInput String -> "+ input + "\n" + "Output String -> " +SpaceReplace.Replace(input));
+
+            input = "Sathish Testing Spaces many more spaces!";
+            Console.WriteLine("\nInput String -> " + input + "\n" + "Output String -> " + SpaceReplace.Replace(input));
+
+            input = "NegativeTestingWithoutSpaces!";
+            Console.WriteLine("\nInput String -> " + input + "\n" + "Output String -> " + SpaceReplace.Replace(input));
         }
     }
 }
