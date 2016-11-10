@@ -23,7 +23,7 @@ namespace DS.Algorithms.Satish.StringAsnmt
 
             s1 = "debit card";
             s2 = "bad credit";
-            Console.WriteLine("Are these Strings  Anagrams : " + StringAnagram.isAnagram(s1, s2));
+            Console.WriteLine("Are these Strings  Anagrams : " + StringAnagram.isAnagramByCount(s1, s2));
             s1 = "Astronomer";
             s2 = "Moon starrer";
             Console.WriteLine("Are these Strings  Anagrams : " + StringAnagram.isAnagram(s1, s2));

@@ -45,5 +45,33 @@ namespace DS.Algorithms.Satish.StringAsnmt
 
             return isFound;
         }
+
+        public static bool isAnagramByCount(string str1, string str2)
+        {
+
+            if (str1.Length != str2.Length)
+            {
+                return false;
+            }
+            else
+            {
+                int str1Count = 0;
+                int str2Count = 0;
+                for (int i = 0; i < str1.Length; i++)
+                {
+                    str1Count += str1[i];
+                    str2Count += str2[i];
+                }
+            //    Console.WriteLine(str1Count + " " + str2Count);
+                if (str1Count != str2Count)
+                {
+                    return false;
+                }
+                else
+                    return true;
+            }
+                
+
+        }
     }
 }
