@@ -10,9 +10,16 @@ namespace DS.Algorithms.Satish.StringAsnmt
     {
         public static string Compress(string inStr)
         {
-            string compStr = null ;
+            if (inStr.Length <= 2)
+                return inStr;
+
+            if (inStr == null)
+                return null; 
+
+           // string compStr = null ;
             int strCnt = 1;
-            char c=' ';
+            char c = ' ';
+            StringBuilder sb = new StringBuilder();
             for (int i = 0; i < inStr.Length - 1; i++)
             {
                 c = inStr[i];
@@ -21,16 +28,20 @@ namespace DS.Algorithms.Satish.StringAsnmt
                     strCnt++;
                 }else
                 {
-                    compStr = compStr + c + strCnt;
+                  //  compStr = compStr + c + strCnt;
+                    sb.Append(c);
+                    sb.Append(strCnt);
                     strCnt = 1;
                 }
             }
-            compStr = compStr + c + strCnt;
+           // compStr = compStr + c + strCnt;
+            sb.Append(c);
+            sb.Append(strCnt);
 
-            if (inStr.Length <= compStr.Length)
-               return inStr;
+            if (inStr.Length <= sb.Length)
+                return inStr;
             else
-                return compStr;
+                return sb.ToString();//compStr;
         }
     }
 }
