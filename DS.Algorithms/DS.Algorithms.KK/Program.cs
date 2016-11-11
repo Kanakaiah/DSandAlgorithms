@@ -39,8 +39,13 @@ namespace DS.Algorithms.KK
             //StringCompressTest.Run();
 
             //10.
-            RotateMatrixTest.Run();
+            //RotateMatrixTest.Run();
 
+            //11.if an element in an MxN matrix is 0, its entire row and column are set to 0
+            //RowColumnSetZeroTest.Run();
+
+            //12.
+            StringRotateTest.Run();
 
             Console.Read();
         }

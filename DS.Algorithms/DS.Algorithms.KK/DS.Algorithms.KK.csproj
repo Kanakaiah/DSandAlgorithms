@@ -52,25 +52,19 @@
     <Compile Include="StackQueue\Stack.cs" />
     <Compile Include="StackQueue\StackTest.cs" />
     <Compile Include="StringArray\Anagram.cs" />
-    <Compile Include="StringArray\AnagramTest.cs" />
+    <Compile Include="StringArray\ArrayLeftRotation.cs" />
     <Compile Include="StringArray\MatrixArithmetic.cs" />
-    <Compile Include="StringArray\MatrixArithmeticTest.cs" />
     <Compile Include="StringArray\MaximumSubsequences.cs" />
-    <Compile Include="StringArray\MaximumSubsequencesTest.cs" />
     <Compile Include="StringArray\Palindrome.cs" />
-    <Compile Include="StringArray\PalindromeTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringArray\ReplaceWithSpace.cs" />
-    <Compile Include="StringArray\ReplaceWithSpaceTest.cs" />
     <Compile Include="StringArray\ReveseTheNumber.cs" />
-    <Compile Include="StringArray\ReveseTheNumberTest.cs" />
     <Compile Include="StringArray\RotateMatrix.cs" />
-    <Compile Include="StringArray\RotateMatrixTest.cs" />
+    <Compile Include="StringArray\RowColumnSetZero.cs" />
     <Compile Include="StringArray\StringCompress.cs" />
-    <Compile Include="StringArray\StringCompressTest.cs" />
+    <Compile Include="StringArray\StringRotate.cs" />
     <Compile Include="StringArray\UniqueCharacters.cs" />
-    <Compile Include="StringArray\UniqueCharactersTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

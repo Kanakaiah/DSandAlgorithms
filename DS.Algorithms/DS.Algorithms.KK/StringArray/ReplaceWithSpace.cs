@@ -44,4 +44,27 @@ namespace DS.Algorithms.KK.StringArray
             return new string(chrArray);
         }
     }
+
+    public class ReplaceWithSpaceTest
+    {
+        public static void Run()
+        {
+            var str = "Jesus is the Lord      ";
+            Console.WriteLine("Input: '{0}' --->Output: {1} ", str, ReplaceWithSpace.Replace(str));
+
+
+            str = " Jesus is the Lord        ";
+            Console.WriteLine("Input: '{0}' --->Output: {1} ", str, ReplaceWithSpace.Replace(str));
+
+
+            str = " Jesus is the Lord           ";
+            Console.WriteLine("Input: '{0}' --->Output: {1} ", str, ReplaceWithSpace.Replace(str));
+
+
+
+            str = " Jesus  is the Lord             ";
+            Console.WriteLine("Input: '{0}' --->Output: {1} ", str, ReplaceWithSpace.Replace(str));
+
+        }
+    }
 }

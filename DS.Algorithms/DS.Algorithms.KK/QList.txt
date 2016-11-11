@@ -75,7 +75,7 @@ Reference : http://stackoverflow.com/questions/25882480/rotating-a-nxn-matrix-in
 column are set to 0.
 
 
-12. Given two strings, si and s2, write code to check If s2 is a rotation of si
+12. Given two strings, s1 and s2, write code to check If s2 is a rotation of s1
 using only onecall to a finction (e.g., "waterbottle" is a rotation of "erbottlewat").
 
 13. Given an array of n integers and a number, d , perform d left rotations on the array. 
