@@ -49,7 +49,12 @@
     <Compile Include="StringArray\Anagram.cs" />
     <Compile Include="StringArray\ArrayArithmetic.cs" />
     <Compile Include="StringArray\CompressString.cs" />
+    <Compile Include="StringArray\MatrixZeroes.cs" />
     <Compile Include="StringArray\ReplaceSpaces.cs" />
+    <Compile Include="StringArray\StringRotation.cs" />
+    <Compile Include="StringArray\LeftRotation.cs" />
+    <Compile Include="StringArray\Tests\LeftRotationTest.cs" />
+    <Compile Include="StringArray\Tests\MatrixZeroesTest.cs" />
     <Compile Include="StringArray\Tests\ReplaceSpacesTest.cs" />
     <Compile Include="StringArray\ReverseStringByWord.cs" />
     <Compile Include="StringArray\Tests\AnagramTest.cs" />
@@ -63,6 +68,7 @@
     <Compile Include="StringArray\Tests\PalindromeTest.cs" />
     <Compile Include="DataStructures\Stack.cs" />
     <Compile Include="StringArray\Tests\ReverseStringByWordTest.cs" />
+    <Compile Include="StringArray\Tests\StringRotationTest.cs" />
     <Compile Include="StringArray\Tests\UniqueCharactersTest.cs" />
     <Compile Include="StringArray\UniqueCharacters.cs" />
   </ItemGroup>

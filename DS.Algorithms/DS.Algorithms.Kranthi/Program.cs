@@ -24,6 +24,10 @@
             //CompressStringTest.Run();
             //ReplaceSpacesTest.Run();
 
+            //MatrixZeroesTest.Run();
+            //StringRotationTest.Run();
+            //LeftRotationTest.Run();
+
             Console.Read();
         }        
     }
