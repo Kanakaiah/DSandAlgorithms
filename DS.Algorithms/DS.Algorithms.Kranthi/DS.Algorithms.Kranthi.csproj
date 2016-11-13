@@ -50,7 +50,7 @@
     <Compile Include="StringArray\ArrayArithmetic.cs" />
     <Compile Include="StringArray\CompressString.cs" />
     <Compile Include="StringArray\ReplaceSpaces.cs" />
-    <Compile Include="StringArray\ReplaceSpacesTest.cs" />
+    <Compile Include="StringArray\Tests\ReplaceSpacesTest.cs" />
     <Compile Include="StringArray\ReverseStringByWord.cs" />
     <Compile Include="StringArray\Tests\AnagramTest.cs" />
     <Compile Include="StringArray\Tests\ArrayArithmeticTest.cs" />

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DS.Algorithms.Kranthi.StringArray
+namespace DS.Algorithms.Kranthi.StringArray.Tests
 {
     class ReplaceSpacesTest
     {
