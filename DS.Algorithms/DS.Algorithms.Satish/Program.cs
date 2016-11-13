@@ -1,4 +1,5 @@
 using DS.Algorithms.Satish;
+using DS.Algorithms.Satish.StringAsnmt;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,6 +67,8 @@ namespace DS.Alogirthms.Satish
 
             //      MatrixProcess mp = new MatrixProcess();
             //      mp.product();
+
+
             MyStack<string> stack = new MyStack<string>();
             Console.WriteLine("The Stack Size :" + stack.Size);
             stack.push("Genesis");
@@ -122,6 +125,20 @@ namespace DS.Alogirthms.Satish
             {
                 Console.WriteLine("Index :" + i + " Value :" + queue.Get(i));
             }
+            Console.WriteLine("-------------------------------");
+
+            SubSequenceSum subSum = new SubSequenceSum();
+            //  subSum.displayArray();
+            //  subSum.displaySubSum();
+            SubSequenceTest.Run();
+
+            // UniqueCharTest.Run();
+            StringAnagramTest.Run();
+
+            SpaceReplaceTest.Run();
+
+            StringCompressTest.Run();
+            
         }
     }
 }

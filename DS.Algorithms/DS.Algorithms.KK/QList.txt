@@ -36,3 +36,109 @@
 
 
 4. Matrix arithmetic operations like additions, subtractions, and multiplications.
+
+5. Implement Stack and Queue. Can be implemented using a Node class, an array, a list and so on
+
+6. Implement an algorithm to determine if a string has all unique characters. What if
+you cannot use additional data structures?   (String can be an ASCII or Unicode)
+
+7. Given two strings, write a method to decide if one is a permutation(or anagram) of the other.
+	Example: The word "silent" is an anagram of "listen".
+
+8. Write a method to replace all spaces in a string with '%20'. You may assume that the
+string has sufficient space at the end of the string to hold the additional characters,
+and that you are given the "true" length of the string. (Note: if implementing in Java,
+please use a character array so that you can perform this operation in place.)
+
+9. Implement a method to perform basic string compression using the counts of
+repeated characters. For example, the string aabcccccaaa would become
+a2blc5a3. If the "compressed" string would not become smaller than the original
+string, your method should return the original string
+
+
+10. Given an image represented by an NxN matrix, where each pixel in the image is 4
+bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
+Input :
+		ABCD
+		EFGH
+		IJKL
+		MNOP
+
+Output
+		MIEA
+		NJFB
+		OKGC
+		PLHD
+Reference : http://stackoverflow.com/questions/25882480/rotating-a-nxn-matrix-in-java
+
+11. Write an algorithm such that if an element in an MxN matrix is 0, its entire row and
+column are set to 0.
+
+
+12. Given two strings, s1 and s2, write code to check If s2 is a rotation of s1
+using only onecall to a finction (e.g., "waterbottle" is a rotation of "erbottlewat").
+
+13. Given an array of n integers and a number, d , perform d left rotations on the array. 
+Then print the updated array as a single line of space-separated integers
+Sample Input
+5 4
+1 2 3 4 5
+Sample Output
+5 1 2 3 4
+
+Explanation:
+When we perform  d=4 left rotations, the array undergoes the following sequence of changes: 
+input : 1 2 3 4 5
+Rotation 1: 2 3 4 5 1
+Rotation 2: 3 4 5 1 2
+Rotation 3: 4 5 1 2 3
+Rotation 4: 5 1 2 3 4
+Thus, we print the array's final state as a single line of space-separated values, which is 5 1 2 3 4
+
+14. Given a 6X6 array, A:
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+We define an hourglass in A to be a subset of values with indices falling in this pattern in A's graphical representation:
+
+a b c
+  d
+e f g
+
+There are 16 hourglasses in A, and an hourglass sum is the sum of an hourglass' values. 
+Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum.
+Sample Input
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 2 4 4 0
+0 0 0 2 0 0
+0 0 1 2 4 0
+Sample Output
+19
+Explanation:
+A contains the following hourglasses:
+
+1 1 1   1 1 0   1 0 0   0 0 0
+  1       0       0       0
+1 1 1   1 1 0   1 0 0   0 0 0
+
+0 1 0   1 0 0   0 0 0   0 0 0
+  1       1       0       0
+0 0 2   0 2 4   2 4 4   4 4 0
+
+1 1 1   1 1 0   1 0 0   0 0 0
+  0       2       4       4
+0 0 0   0 0 2   0 2 0   2 0 0
+
+0 0 2   0 2 4   2 4 4   4 4 0
+  0       0       2       0
+0 0 1   0 1 2   1 2 4   2 4 0
+
+The hourglass with the maximum sum (19) is:
+2 4 4
+  2
+1 2 4
