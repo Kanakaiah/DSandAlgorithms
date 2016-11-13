@@ -12,7 +12,8 @@ namespace DS.Algorithms.Bhanu
         {
             //StringProblems.Test_PalindromeChecking();
             //StringProblems.Test_PalindromeCheckingSpecialcase();
-            NumericBasedProblems.Test_ReverseGivenNumber();
+            //NumericBasedProblems.Test_ReverseGivenNumber();
+            ArrayBasedProblems.Test_MaxSubArraySum();
         }
     }
 }

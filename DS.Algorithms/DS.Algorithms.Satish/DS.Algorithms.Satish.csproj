@@ -45,8 +45,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MatrixProcess.cs" />
+    <Compile Include="MyQueue.cs" />
+    <Compile Include="MyStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringAsnmt\SpaceReplace.cs" />
+    <Compile Include="StringAsnmt\SpaceReplaceTest.cs" />
+    <Compile Include="StringAsnmt\StringAnagram.cs" />
+    <Compile Include="StringAsnmt\StringAnagramTest.cs" />
+    <Compile Include="StringAsnmt\StringCompression.cs" />
+    <Compile Include="StringAsnmt\StringCompressTest.cs" />
+    <Compile Include="StringAsnmt\UniqueChar.cs" />
+    <Compile Include="StringAsnmt\UniqueCharTest.cs" />
+    <Compile Include="SubSequenceSum.cs" />
+    <Compile Include="SubSequenceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
