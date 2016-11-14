@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DS.Algorithms.Kranthi.StringArray
+namespace DS.Algorithms.Kranthi.StringArray.Tests
 {
     class NumberTest
     {

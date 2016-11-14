@@ -10,6 +10,13 @@ namespace DS.Algorithms.ShashiPriya
     {
         static void Main()
         {
+
+            String s1 = new String();
+           string s2= s1.ReverseString("sky is blue");
+            Console.WriteLine(s2);
+            Console.ReadLine();
+
+
             MyQueue q= new MyQueue();
             q.EnQueue(1);
             q.EnQueue(2);
