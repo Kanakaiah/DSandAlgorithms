@@ -18,6 +18,11 @@ namespace DS.Algorithms.Satish.StringAsnmt
             Console.WriteLine("Out Put");
             Console.WriteLine();
             Console.WriteLine(StringWordReverse.Reverse(input));
+            Console.WriteLine();
+           
+            input = "Sathish";
+            Console.WriteLine("Input String -> " + input);
+            Console.WriteLine("Output String ->" + StringWordReverse.Reverse(input));
         }
     }
 }

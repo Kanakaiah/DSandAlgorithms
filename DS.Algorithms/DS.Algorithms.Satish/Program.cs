@@ -148,6 +148,8 @@ namespace DS.Alogirthms.Satish
             ArrayRotateTest.Run();
 
             StringWordReverseTest.Run();
+
+            HourGlassTest.Run();
             
         }
     }
