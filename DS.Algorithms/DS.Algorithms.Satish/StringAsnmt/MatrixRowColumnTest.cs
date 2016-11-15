@@ -16,6 +16,14 @@ namespace DS.Algorithms.Satish.StringAsnmt
             };
 
             MatrixZeroRowColumn.MakeRowColumn(input);
+
+            int[,] input1 = { { 1, 1, 2 },
+                       {2, 1, 0 },
+                       {1, 2, 3 }
+            };
+
+            MatrixZeroRowColumn.MakeRowColumn(input1);
+
         }
         
     }
