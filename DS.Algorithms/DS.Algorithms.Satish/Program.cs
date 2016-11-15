@@ -142,6 +142,8 @@ namespace DS.Alogirthms.Satish
             StringRotationTest.Run();
 
             MatrixRotateTest.Run();
+
+            MatrixRowColumnTest.Run();
             
         }
     }
