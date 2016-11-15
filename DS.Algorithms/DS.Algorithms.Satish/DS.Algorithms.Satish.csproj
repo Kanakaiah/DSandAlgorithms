@@ -63,6 +63,8 @@
     <Compile Include="StringAsnmt\StringCompressTest.cs" />
     <Compile Include="StringAsnmt\StringRotation.cs" />
     <Compile Include="StringAsnmt\StringRotationTest.cs" />
+    <Compile Include="StringAsnmt\StringWordReverse.cs" />
+    <Compile Include="StringAsnmt\StringWordReverseTest.cs" />
     <Compile Include="StringAsnmt\UniqueChar.cs" />
     <Compile Include="StringAsnmt\UniqueCharTest.cs" />
     <Compile Include="SubSequenceSum.cs" />
