@@ -49,6 +49,8 @@
     <Compile Include="MyStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringAsnmt\ArrayLeftRotation.cs" />
+    <Compile Include="StringAsnmt\ArrayRotateTest.cs" />
     <Compile Include="StringAsnmt\MatrixRotateTest.cs" />
     <Compile Include="StringAsnmt\MatrixRotation.cs" />
     <Compile Include="StringAsnmt\MatrixRowColumnTest.cs" />
