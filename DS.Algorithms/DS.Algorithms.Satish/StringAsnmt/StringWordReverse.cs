@@ -11,14 +11,14 @@ namespace DS.Algorithms.Satish.StringAsnmt
         public static string Reverse(string inString)
         {
             string[] words = inString.Split(' ').ToArray();
-            string reveseWord = null;
+            string reverseWord = null;
             foreach(string s in words.Reverse())
             {
-                reveseWord = reveseWord + s + ' ';
+                reverseWord = reverseWord + s + ' ';
 
             }
 
-            return reveseWord;
+            return reverseWord;
         }
     }
 }
