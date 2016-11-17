@@ -12,8 +12,8 @@ namespace DS.Algorithms.ShashiPriya
         {
 
             String s1 = new String();
-           string s2= s1.ReverseString("sky is blue");
-            Console.WriteLine(s2);
+           bool r= s1.isRotatedString("water","erwat");
+            Console.WriteLine(r.ToString());
             Console.ReadLine();
 
 

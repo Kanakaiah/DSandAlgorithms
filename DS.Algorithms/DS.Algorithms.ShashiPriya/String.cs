@@ -127,6 +127,35 @@ namespace DS.Algorithms.ShashiPriya
             return revString;
         }
 
+        public string ReplaceWhiteSpace(string s,int length)
+        {
+            char[] ch = s.ToCharArray();
+            int count = 0;
+            for(int i=0;i<length;i++)
+            {
+                if (s[i] == ' ') count++;
+            }
+            int newlength = length + (count * 2);
+            
+            for(int i=length-1;i>=0;i--)
+            {
+                if (ch[i] == ' ')
+                {
+                    ch[newlength-1] = '0';
+                    ch[newlength - 2] = '2';
+                    ch[newlength - 3] = '%';
+                    newlength = newlength - 3;
+                }
+                else
+                {
+                    ch[newlength - 1] = ch[i];
+                    newlength--;
+                }
+            }
+            return new string(ch);
+        }
+
+       
         
     }
 }
