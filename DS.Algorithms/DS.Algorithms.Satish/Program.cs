@@ -138,6 +138,18 @@ namespace DS.Alogirthms.Satish
             SpaceReplaceTest.Run();
 
             StringCompressTest.Run();
+
+            StringRotationTest.Run();
+
+            MatrixRotateTest.Run();
+
+            MatrixRowColumnTest.Run();
+
+            ArrayRotateTest.Run();
+
+            StringWordReverseTest.Run();
+
+            HourGlassTest.Run();
             
         }
     }

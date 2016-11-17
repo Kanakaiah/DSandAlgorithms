@@ -14,7 +14,7 @@ namespace DS.Algorithms.Kranthi.StringArray
         {
             int rowLength = firstArray.GetLength(0);
             long columnLength = firstArray.GetLength(1);
-            if (rowLength.Equals(secondArray.GetLength(0)) || columnLength.Equals(secondArray.GetLength(1)))
+            if (rowLength.Equals(secondArray.GetLength(0)) && columnLength.Equals(secondArray.GetLength(1)))
             {
                 long[,] resultantArray = new long[rowLength, columnLength];
 
@@ -45,7 +45,7 @@ namespace DS.Algorithms.Kranthi.StringArray
         {
             int rowLength = firstArray.GetLength(0);
             long columnLength = firstArray.GetLength(1);
-            if (rowLength.Equals(secondArray.GetLength(0)) || columnLength.Equals(secondArray.GetLength(1)))
+            if (rowLength.Equals(secondArray.GetLength(0)) && columnLength.Equals(secondArray.GetLength(1)))
             {
                 long[,] resultantArray = new long[rowLength, columnLength];
 

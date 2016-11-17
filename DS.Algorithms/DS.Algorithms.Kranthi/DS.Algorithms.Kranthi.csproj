@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,12 +46,31 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringArray\Anagram.cs" />
     <Compile Include="StringArray\ArrayArithmetic.cs" />
-    <Compile Include="StringArray\ArrayArithmeticTest.cs" />
+    <Compile Include="StringArray\CompressString.cs" />
+    <Compile Include="StringArray\MatrixZeroes.cs" />
+    <Compile Include="StringArray\ReplaceSpaces.cs" />
+    <Compile Include="StringArray\StringRotation.cs" />
+    <Compile Include="StringArray\LeftRotation.cs" />
+    <Compile Include="StringArray\Tests\LeftRotationTest.cs" />
+    <Compile Include="StringArray\Tests\MatrixZeroesTest.cs" />
+    <Compile Include="StringArray\Tests\ReplaceSpacesTest.cs" />
+    <Compile Include="StringArray\ReverseStringByWord.cs" />
+    <Compile Include="StringArray\Tests\AnagramTest.cs" />
+    <Compile Include="StringArray\Tests\ArrayArithmeticTest.cs" />
+    <Compile Include="StringArray\MaxSubSequence.cs" />
+    <Compile Include="StringArray\Tests\CompressStringTest.cs" />
+    <Compile Include="StringArray\Tests\MaxSubSequenceTest.cs" />
     <Compile Include="StringArray\Number.cs" />
-    <Compile Include="StringArray\NumberTest.cs" />
+    <Compile Include="StringArray\Tests\NumberTest.cs" />
     <Compile Include="StringArray\Palindrome.cs" />
-    <Compile Include="StringArray\PalindromeTest.cs" />
+    <Compile Include="StringArray\Tests\PalindromeTest.cs" />
+    <Compile Include="DataStructures\Stack.cs" />
+    <Compile Include="StringArray\Tests\ReverseStringByWordTest.cs" />
+    <Compile Include="StringArray\Tests\StringRotationTest.cs" />
+    <Compile Include="StringArray\Tests\UniqueCharactersTest.cs" />
+    <Compile Include="StringArray\UniqueCharacters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
