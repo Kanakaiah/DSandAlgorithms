@@ -12,8 +12,12 @@ namespace DS.Algorithms.ShashiPriya
         {
 
             String s1 = new String();
-           bool r= s1.isRotatedString("water","erwat");
-            Console.WriteLine(r.ToString());
+            int[] a1 = { 1, 2, 3, 4, 5,6,7,8 };
+           int[] b1 = s1.ShiftedArray(a1,2,8);
+            for (int i = 0; i < b1.Length; i++)
+            {
+                Console.WriteLine(b1[i]);
+            }
             Console.ReadLine();
 
 

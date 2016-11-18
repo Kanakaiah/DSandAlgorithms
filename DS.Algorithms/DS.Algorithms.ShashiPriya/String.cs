@@ -155,7 +155,55 @@ namespace DS.Algorithms.ShashiPriya
             return new string(ch);
         }
 
-       
+       public bool isInRotation(string s1,string s2)
+        {
+            bool result = true; 
+            string s3 = s1 + s1;
+            for(int i=0;i<s3.Length-s2.Length;i++)
+            {
+                result = true;
+                for(int j=0;j<s2.Length;j++)
+                {
+                    if(s3[i+j]!=s2[j])
+                    {
+                        result = false;
+                        break;
+                    }
+                }
+                if (result) break;               
+            }
+
+            if (result) Console.WriteLine("Strings are in rotation");
+            else Console.WriteLine("Strings are not in rotation");          
+
+            return result;            
+        }
+
+        public int[] ShiftedArray(int[] a,int d,int n)
+        {
+            int[] temp = new int[d];
+            for(int i=0;i<d;i++)
+            {
+                temp[i] = a[i];
+            }
+
+            //shift d
+            int j = 0;
+            for(int i=0;i<n;i++)
+            {
+                if((d+i)<n)
+                a[i] = a[d + i];
+                else
+                {
+                    a[i] = temp[j];
+                    j++;
+                }
+            }
+
+
+            return a;
+
+        }
         
     }
 }
