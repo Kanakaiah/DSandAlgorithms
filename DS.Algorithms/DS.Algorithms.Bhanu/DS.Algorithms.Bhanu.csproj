@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayBasedProblems.cs" />
+    <Compile Include="Exercises\MatrixBased.cs" />
+    <Compile Include="Exercises\Runner.cs" />
+    <Compile Include="Exercises\StringBased.cs" />
     <Compile Include="NumericBasedProblems.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
