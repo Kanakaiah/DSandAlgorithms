@@ -204,6 +204,88 @@ namespace DS.Algorithms.ShashiPriya
             return a;
 
         }
+
+        public int[,] RowColumnZero(int[,] a)
+        {
+            bool[] row = new bool[a.GetLength(0)];
+            bool[] column = new bool[a.GetLength(1)];
+
+
+           
+
+            for(int i=0;i<a.GetLength(0);i++)
+            {
+                for(int j=0;j<a.GetLength(1);j++)
+                {
+                    if(a[i,j]==0)
+                    {
+                        row[i] = true;
+                        column[j] = true;
+                    }                    
+                }               
+            }
+
+            for(int i=0;i<a.GetLength(0);i++)
+            {
+                if(row[i])
+                {
+
+                    for(int j=0;j<a.GetLength(1);j++)
+                    {
+                        a[i, j] = 0;
+                    }
+                }
+            }
+
+            for(int j=0;j<a.GetLength(1);j++)
+            {
+                if(column[j])
+                {
+                    for(int i=0;i<a.GetLength(0);i++)
+                    {
+                        a[i, j] = 0;
+                    }
+                }
+            }
+            return a;
+        }
+
+        public int[,] RotateMatrix(int[,] a)
+        {
+            int row = a.GetLength(0);
+            int column= a.GetLength(1);
+            int[,] b = new int[row, column];
+
+            for(int i=0;i<row;i++)
+            {
+                for(int j=0;j<row;j++)
+                {
+                    b[i, j] = a[row - 1 - j, i];
+                }
+            }
+            return b;
+
+        }
+
+        public int MaxHourGlass(int[,] a)
+        {
+            int maxsum = 0;
+            int row = a.GetLength(0);
+            int column = a.GetLength(1);
+            
+
+            for (int i = 0; i <row-2;i++)
+            {
+                int count = 0;
+                for(int j=0;j<column-2;j++)
+                {
+                    count = a[i, j] + a[i, j + 1] + a[i, j + 2] + a[i + 1, j + 1] + a[i + 2, j] + a[i + 2, j + 1] + a[i + 2, j + 2];
+                    maxsum = maxsum > count ? maxsum : count;
+                }              
+
+            }
+                return maxsum;
+        }
         
     }
 }

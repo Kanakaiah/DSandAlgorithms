@@ -12,6 +12,9 @@ namespace DS.Algorithms.ShashiPriya
         {
 
             String s1 = new String();
+            int[,] a3 = new int[6,6] { { 1, 0,8 ,1,1,1}, { 2, 7,0 ,1,1,1}, { 8,6,4,1,1,1}, {1,1,1,1,1,1 }, { 1,1,1,1,1,1}, {1,1,1,1,1,1 } };
+           // int[,] b3 = new int[3, 3];
+           int b3= s1.MaxHourGlass(a3);
             int[] a1 = { 1, 2, 3, 4, 5,6,7,8 };
            int[] b1 = s1.ShiftedArray(a1,2,8);
             for (int i = 0; i < b1.Length; i++)
