@@ -54,6 +54,7 @@
     <Compile Include="StackQueue\StackTest.cs" />
     <Compile Include="StringArray\Anagram.cs" />
     <Compile Include="StringArray\ArrayLeftRotation.cs" />
+    <Compile Include="StringArray\HourGlass.cs" />
     <Compile Include="StringArray\MatrixArithmetic.cs" />
     <Compile Include="StringArray\MaximumSubsequences.cs" />
     <Compile Include="StringArray\Palindrome.cs" />

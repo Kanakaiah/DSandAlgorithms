@@ -45,7 +45,13 @@ namespace DS.Algorithms.KK
             //RowColumnSetZeroTest.Run();
 
             //12.
-            StringRotateTest.Run();
+            //StringRotateTest.Run();
+
+            //13.
+            //HourGlassTest.Run();
+
+            //14.
+            ArrayLeftRotationTest.Run();
 
             Console.Read();
         }
